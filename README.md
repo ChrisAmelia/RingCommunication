@@ -57,8 +57,23 @@ Here's a few available commands :
 
     $ WHOS
 
-    send the message "WHOS" on the ring to know who are currently present on it.
+    send the message "WHOS" on the current ring to know who are currently present on it.
     Each node sends back a message "MEMB" with additionnal informations.
+
+    $ GBYE
+
+    request to exit the current ring. The current node insures to carry out its part
+    until it leaves the ring.
+
+    $ TEST
+
+    send the message "TEST" on the current ring. If after a certain amount of time (default 10 sec),
+    this message is not received back then the message "DOWN" is sent on the whole ring.
+    Every node then disconnects.
+
+    $ EXIT
+
+    close the program.
 
 ## License
 
