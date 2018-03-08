@@ -8,7 +8,19 @@ TODO
 
 ### Prequisites
 
-Java 8
+Java 8 and Python3.
+
+## Running
+
+First move to the source folder:
+
+    $ cd src
+
+### Python
+
+Run the script:
+
+    $ ./run.py
 
 ## License
 
