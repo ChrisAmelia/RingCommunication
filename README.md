@@ -1,5 +1,9 @@
 # Ring Communication
 
+<h1 align="center">
+    <img src="https://en.wikipedia.org/wiki/Ring_network#/media/File:NetworkTopology-Ring.png" alt="network ring topology">
+</h1>
+
 Ring network implementation. This is a student project.
 
 ## Getting Started
