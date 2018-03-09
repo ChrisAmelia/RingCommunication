@@ -20,13 +20,17 @@ First move to the source folder:
 
 ### Python
 
-Run the script:
+To run the project with default parameters:
 
     $ ./run.py
 
-Then the ring running with default parameters. You may also give the TCP and UDP ports:
+You may also indicate TCP and UDP ports:
 
     $ ./run.py PORT_TCP PORT_UDP
+
+e.g.:
+
+    $ ./run.py 4080 6080
 
 ### If Python3 is not suported
 
